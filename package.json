@@ -1,0 +1,17 @@
+{
+  "name": "stonk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@canvasjs/charts": "^3.8.4",
+    "apexcharts": "^3.49.0"
+  }
+}

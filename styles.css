@@ -1,0 +1,18 @@
+.back{
+    background-image: url(favorite-color-1.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.bottom{
+    display: flex;
+    justify-content:start;
+    align-items:baseline;
+}
+.text{
+    font-family: "jaro";
+    margin-top: 25px;
+    font-size:larger;
+}
