@@ -7,7 +7,6 @@ async function make_chart(selected_date){
         const response = await fetch(url);
         const data = await response.json();
         const timeSeriesData = data["Time Series (5min)"];
-        console.log(timeSeriesData);
         for (var key in timeSeriesData) {
             if (key.startsWith(selected_date)) {
                 var [datePart, timePart] = key.split(" ");
